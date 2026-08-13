@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 991px) {
+
+    .navbar .navbar-nav>li>a {
+        padding: 15px 15px;
+        margin: 5px 0px;
+    }
+
+    .top_phone_mail li {
+        padding-right: 25px !important;
+    }
+
+    #about img {
+        padding-top: 20px;
+    }
+
+    #service_box {
+        min-height: auto !important;
+    }
+    .gtco-testimonials .card{
+        margin: 0;
+        padding: 30px 15px;
+    }
+    .footer_h{
+        padding-top: 20px !important;
+    }
+    .navbar-nav .open .dropdown-menu .dropdown-header,
+    .navbar-nav .open .dropdown-menu>li>a {
+        padding: 10px 20px !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    #top_bar {
+        display: block;
+    }
+
+    .pull-right {
+        text-align: center;
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .desktop_hide {
+        display: block;
+    }
+    #nav_logo{
+        display: none;
+    }
+    .navbar {
+        background: #ffffff;
+        padding: 0 !important;
+    }
+
+    #logo {
+        padding-top: 10px;
+        height: 55px;
+        margin: 15px auto;
+    }
+    .carousel-control {
+        width: 6% !important;
+        opacity: 1;
+    }
+    .top_phone_mail{
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .carousel-control i {
+        font-size: 24px;
+    }
+    .abt_h{
+        font-size: 28px;
+    }
+    .cut_p{
+        text-align: center;
+    }
+    .cut_h{
+        text-align: center;
+    }
+    .cut_sh{
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .abt_h{
+        font-size: 24px;
+    }
+}
