@@ -7,6 +7,7 @@
     --secondary-color: #ffffff;
     --text-color: #202020;
     --p-color: #696969;
+    --third-color: #d59a0e;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Rubik', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -1009,6 +1010,7 @@ p {
 #footer_logo {
     padding: 25px;
     background: var(--secondary-color);
+    
 }
 
 .l_translate {
@@ -1052,6 +1054,9 @@ p {
 .footer_li li span {
     padding-left: 20px;
 }
+.footer_li li:hover{
+    color: var(--primary-color);
+}
 
 .footer_li li strong {
     min-width: 90px;
@@ -1089,9 +1094,10 @@ p {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: "Noto Serif", serif;
     font-style: italic;
-    color: var(--secondary-color);
+    color: var(--third-color);
     font-weight: 700;
     text-align: center;
+    text-shadow: 0px 0px 20px 0px black;
 }
 
 #faqs {
