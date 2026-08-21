@@ -1003,7 +1003,7 @@ p {
     height: auto;
     padding: 30px 0;
     padding-top: 0;
-    background: url(../../images/footer_bg02.jpg) bottom center;
+    background: url(../../images/footer-bg-4.png) center bottom;
     background-size: cover;
     margin-top: 0px;
 }
@@ -1019,7 +1019,7 @@ p {
 }
 
 .footer_h {
-    color: var(--secondary-color);
+    color: var(--text-color);
     line-height: inherit;
     font-family: "Playfair", serif;
     font-weight: bold;
@@ -1030,7 +1030,7 @@ p {
 .footer_p {
     font-family: 'Poppins', sans-serif;
     padding-top: 5px !important;
-    color: var(--secondary-color);
+    color: var(--text-color);
     line-height: 28px;
     letter-spacing: 0px;
     font-weight: 400;
@@ -1043,17 +1043,20 @@ p {
 
 .footer_li li {
     list-style: none;
-    font-family: 'Poppins', sans-serif;
-    color: var(--secondary-color);
+    /* font-family: 'Poppins', sans-serif; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--text-color);
     padding-top: 10px;
     letter-spacing: 0.35px;
-    font-weight: 400;
+    font-weight: 600;
     display: flex;
     line-height: 26px;
 }
 
 .footer_li li span {
     padding-left: 20px;
+    font-weight: 500;
+    color:#202020;
 }
 .footer_li li:hover{
     color: var(--primary-color);
@@ -1076,7 +1079,7 @@ p {
 .copy_p {
     font-family: 'Poppins', sans-serif;
     padding-top: 15px !important;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     line-height: 28px;
     letter-spacing: 0.35px;
     font-weight: 400;
@@ -1088,7 +1091,7 @@ p {
     height: auto;
     padding: 100px 0;
     background: var(--primary-color);
-    background: url(../../images/footer_bg02.jpg)top center;
+    background: url(../../images/footer-bg-4.png)top center;
     background-size: cover;
 }
 
